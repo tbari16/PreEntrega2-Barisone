@@ -39,5 +39,47 @@ nav {
     width: 100px;
 }
 
+.fondoBoton {
+    background-image:  url(../img/SNKRS\ inicio.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 52rem;
+    width: 90%;
+}
 
+.boton {
+    background-color: rgb(164, 226, 247);
+    border-radius: 15px;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.boton h3 {
+    font-size: 70px;
+}
+
+#button {
+    border-radius: 10px;
+    width: 100px;
+    font-family: 'Hind', sans-serif;
+}
+
+.img {
+    text-align: center;
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
