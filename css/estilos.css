@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    background-color: rgb(195, 227, 238);
+    height: auto;
+}
+
+a, p, h4, h3, h2{
+    font-family: 'Hind', sans-serif;
+}
+
+.header_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    height: 180px;
+}
+
+#centrado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(195, 227, 238);
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+}
+
+
+
