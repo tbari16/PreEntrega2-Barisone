@@ -83,3 +83,35 @@ main section {
     justify-content: center;
     align-items: center;
 }
+
+.article-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 400px;
+    width: 100%;
+}
+
+.card {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin:  25px 5%;
+    padding: 5px;
+    border: 5px solid rgb(164, 226, 247);  
+    background-color: rgb(164, 226, 247); 
+    border-radius: 15px;
+}
+
+article h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
