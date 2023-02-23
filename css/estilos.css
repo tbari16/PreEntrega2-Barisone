@@ -183,8 +183,9 @@ footer div {
     border-radius: 25px;
 }
 
-a:hover {
+.nav-link:hover {
     background-color: white;
+    border-radius: 15px;
 }
 
 #button:hover {
@@ -192,7 +193,7 @@ a:hover {
     color: white;
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 576px) {
 
     .vikingo {
         width: 100px;
@@ -438,4 +439,8 @@ a:hover {
         height: 20px;
         margin-top: 10px;
     }
+}
+
+@media (min-width: 577px) and (max-width: 1200px) {
+    
 }
