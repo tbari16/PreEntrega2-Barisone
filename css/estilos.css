@@ -192,10 +192,11 @@ a:hover {
     color: white;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 610px) {
 
     .vikingo {
-        display: none;
+        width: 100px;
+        height: 100px;
     }
 
     .header_div h3 {
@@ -319,4 +320,122 @@ a:hover {
         margin-top: 10px;
     }
     
+}
+
+@media screen and (max-width: 320px)  {
+
+    .vikingo {
+        display: none;
+    }
+
+    .fondoBoton {
+        background-image: url(../img/mobile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 15px;
+        margin: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 35rem;
+    }
+
+    .boton {
+        background-color: rgb(164, 226, 247);
+        border-radius: 15px;
+        height: 100px;
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #button {
+        border-radius: 10px;
+        width: 80px;
+        font-family: 'Hind', sans-serif;
+        font-size: small;
+    }
+
+    .boton h3 {
+        font-size: 30px;
+    }
+
+    a:hover {
+        background-color: white;
+    }
+
+    #button:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .article-div {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3000px;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        border: 5px solid rgb(164, 226, 247);
+        background-color: rgb(164, 226, 247);
+        border-radius: 15px;
+        height: 1700px;
+    }
+
+    .card {
+        width: 240px;
+    }
+
+    footer {
+        background-color: rgb(195, 227, 238);
+        padding: 20px 0px;
+        margin-top: 10px;
+    }
+    
+    footer div {
+        font-size: x-small;
+    }
+    
+    .ord {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    
+    .ord ul li {
+        display: inline-block;
+    }
+
+    .ord h4 {
+        font-size: x-small;
+    }
+
+    .reg {
+        font-size: xx-small;
+    }
+    
+    .wg {
+        width: 15px;
+        height: 15px;
+        margin-top: 10px;
+    }
+    
+    .ord ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 0%;
+    }
+    
+    .tif {
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+    }
 }
