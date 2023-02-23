@@ -193,6 +193,12 @@ footer div {
     color: white;
 }
 
+.card-flex {
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+}
+
 @media screen and (max-width: 576px) {
 
     .vikingo {
@@ -267,6 +273,14 @@ footer div {
         justify-content: center;
         align-items: center;
         height: 3000px;
+    }
+
+    .card-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 0px;
     }
 
     article {
@@ -390,8 +404,13 @@ footer div {
         height: 1700px;
     }
 
-    .card {
-        width: 240px;
+
+    .card-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 0px;
     }
 
     footer {
@@ -441,10 +460,132 @@ footer div {
     }
 }
 
-@media (min-width: 577px) and (max-width: 1200px) {
+@media (min-width: 577px) and (max-width: 720px) {
+    .card-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 0px;
+    }
+
+    .article-div {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3000px;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        border: 5px solid rgb(164, 226, 247);
+        background-color: rgb(164, 226, 247);
+        border-radius: 15px;
+        height: 1700px;
+    }
+
     
+    footer {
+        background-color: rgb(195, 227, 238);
+        padding: 20px 0px;
+        margin-top: 10px;
+        height: 150px;
+    }
+    
+    footer div {
+        font-size: smaller;
+    }
+    
+    .ord {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    
+    .ord ul li {
+        display: inline-block;
+    }
+
+    .ord h4 {
+        font-size: medium;
+    }
+
+    
+    .wg {
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+    }
+    
+    .ord ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 0%;
+    }
+    
+    .tif {
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+    }
 }
 
+@media (min-width: 721px) and (max-width: 1299px) {
+
+    .article-div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 900px;
+    }
+
+    footer {
+        background-color: rgb(195, 227, 238);
+        padding: 20px 0px;
+        margin-top: 10px;
+        height: 150px;
+    }
+    
+    footer div {
+        font-size: smaller;
+    }
+    
+    .ord {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    
+    .ord ul li {
+        display: inline-block;
+    }
+
+    .ord h4 {
+        font-size: medium;
+    }
+
+    
+    .wg {
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+    }
+    
+    .ord ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 0%;
+    }
+    
+    .tif {
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+}
 /* estilos de la pagina de Futbol */
 
 .bk-g {
