@@ -179,3 +179,11 @@ footer div {
     border-radius: 25px;
 }
 
+a:hover {
+    background-color: white;
+}
+
+#button:hover {
+    background-color: black;
+    color: white;
+}
