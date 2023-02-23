@@ -444,3 +444,134 @@ footer div {
 @media (min-width: 577px) and (max-width: 1200px) {
     
 }
+
+/* estilos de la pagina de Futbol */
+
+.bk-g {
+    background-color: rgb(187, 224, 187);
+}
+
+.fondoBotonF {
+    background-image: url(../img/futbol-inicio.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60rem;
+    width: 90%;
+}
+
+.botonF {
+    background-color: rgb(164, 236, 169);
+    border-radius: 15px;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonF h3 {
+    font-size: 60px;
+}
+
+.botonF p {
+    font-size: large;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "nav nav nav nav"
+    "main main main main"
+    "info info info info"
+    "productos productos productos productos"
+    "footer footer footer footer";
+    grid-template-columns: 1fr 5fr 5 1fr;
+}
+
+.f-flex {
+    display: flex;
+    grid-area: info;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.textF {
+    grid-area: text1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(164, 236, 169);
+    width: 600px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.textF-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 100px;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.bk {
+    background-color: rgb(164, 236, 169);
+    height: 46rem;
+    width: 743px;
+}
+
+.bk div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#botines {
+    height: 46rem;
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+main {
+    grid-area: main;
+}
+
+section#pructos {
+    grid-area: prudctos;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.decoF {
+    width: 100%;
+    padding: 5px;
+    border-radius: 25px;
+    width: 500px;
+    height: 500px;
+}
+
+/* .imgF {
+    width: 600px;
+    height: 500px;
+} */
