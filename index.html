@@ -30,29 +30,31 @@
             <img src="./img/vikingo.png" alt="vikingo" class="vikingo">
         </div>
         <nav class="navbar navbar-expand-sm">
-            <div class="container-fluid navbar_div">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./index.html"><img src="./img/Logo.webp" alt="Logo" id="logo"></a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav mr-auto d-flex">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Futbol</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Running</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Skateboarding</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Training</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Sobre Nosotros</a>
-                    </li>
-                </ul>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="./img/Logo.webp" alt="logo" id="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mr-auto d-flex">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Futbol</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Running</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Skateboarding</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Training</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Sobre Nosotros</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -69,10 +71,8 @@
     </main>
 
     <section>
-        <article class="article-flex">
-            <div>
-                <h2>Lanzamientos</h2>
-            </div>
+        <article>
+            <h2>Lanzamientos</h2>
             <div class="article-div">
                 <div class="card" style="width: 18rem;">
                     <img src="./img/Lanzamiento1.jpg" class="card-img-top" alt="...">
@@ -206,7 +206,7 @@
     <footer>
         <div class="containF">
             <div>
-                <a href="">Registrate para mas informacion</a>
+                <a href="" class="reg">Registrate para mas informacion</a>
             </div>
 
             <div class="ord">
