@@ -586,6 +586,8 @@ footer div {
     }
 
 }
+
+
 /* estilos de la pagina de Futbol */
 
 .bk-g {
@@ -789,3 +791,437 @@ footer {
     width: 500px;
     height: 500px;
 }
+
+@media (min-width:1001px) and (max-width:1400px) {
+    .article-div-futbol {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .flex-card {
+        display: flex;
+    }
+
+    .product-colum {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        height: 2300px;
+    }
+
+    .botonF {
+        background-color: rgb(164, 236, 169);
+        border-radius: 15px;
+        height: 400px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .botonF h3 {
+        font-size: 90px;
+    }
+    
+    .botonF p {
+        font-size: xx-large;
+    }
+
+    a {
+        font-size: large;
+    }
+
+    ul li {
+        font-size: x-large;
+    }
+
+    footer {
+        margin-top: 50px;
+        height: 200px;
+    }
+
+
+    .f-flex {
+        display: flex;
+        grid-area: info;
+        justify-content: space-evenly;
+        margin-top: 30px;
+        align-items: center;
+    }
+    
+    .textF-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+        height: 200px;
+        width: 550px;
+        border-radius: 15px;
+    }
+
+    .textF-div {
+        font-size: x-large;
+    }
+
+    .f-flex-2 {
+        display: flex;
+        grid-area: info2;
+        justify-content: space-evenly;
+        margin-top: 30px;
+        align-items: center;
+    }
+    
+    .textF-2 {
+        grid-area: text1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(164, 236, 169);
+        width: 600px;
+        height: 500px;
+        border-radius: 15px;
+    }
+    
+    .textF-div-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+        height: 200px;
+        width: 550px;
+        border-radius: 15px;
+    }
+    
+    .decoF-2 {
+        width: 100%;
+        padding: 5px;
+        border-radius: 25px;
+        width: 500px;
+        height: 500px;
+    }
+
+    .textF-div-2 p {
+        font-size: x-large;
+    }
+
+    footer div {
+        font-size: x-large;
+    }
+}
+
+@media (min-width:579px) and (max-width:1000px) {
+    .article-div-futbol {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .article-flex-futbol {
+        height: 2500px;
+    }
+
+    .flex-card {
+        display: flex;
+    }
+
+    .product-colum {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        height: 2500px;
+    }
+
+    .botonF {
+        background-color: rgb(164, 236, 169);
+        border-radius: 15px;
+        height: 400px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .botonF h3 {
+        font-size: 90px;
+    }
+    
+    .botonF p {
+        font-size: xx-large;
+    }
+
+    a {
+        font-size: large;
+    }
+
+    ul li {
+        font-size: x-large;
+    }
+
+    footer {
+        margin-top: 50px;
+        height: 200px;
+    }
+
+
+    .f-flex {
+        display: flex;
+        grid-area: info;
+        justify-content: space-evenly;
+        margin-top: 30px;
+        align-items: center;
+    }
+    
+    .textF-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+        height: 200px;
+        width: 550px;
+        border-radius: 15px;
+    }
+
+    .textF-div {
+        font-size: x-large;
+    }
+
+    .f-flex-2 {
+        display: flex;
+        grid-area: info2;
+        justify-content: space-evenly;
+        margin-top: 30px;
+        align-items: center;
+    }
+    
+    .textF-2 {
+        grid-area: text1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(164, 236, 169);
+        width: 600px;
+        height: 500px;
+        border-radius: 15px;
+    }
+    
+    .textF-div-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+        height: 200px;
+        width: 550px;
+        border-radius: 15px;
+    }
+    
+    .decoF-2 {
+        width: 100%;
+        padding: 5px;
+        border-radius: 25px;
+        width: 500px;
+        height: 500px;
+    }
+
+    .textF-div-2 p {
+        font-size: x-large;
+    }
+
+    footer div {
+        font-size: x-large;
+    }
+
+    .card-text {
+        font-size: x-large;
+    }
+
+    .btn {
+        width: 200px;
+        height: 70px;
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width:578px) {
+
+    .vikingo {
+        display: none;
+    }
+
+    .header_div div h1 {
+        font-size: 100px;
+    }
+
+
+    .header_div div i {
+        font-size: 50px;
+    }
+
+    #logo {
+        height: 100px;
+        width: 100px;
+    }
+
+    .navbar-toggler-icon {
+        height: 70px;
+        width: 70px;
+    }
+
+    .botonF {
+        background-color: rgb(164, 236, 169);
+        border-radius: 15px;
+        height: 200px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .botonF h3 {
+        font-size: 90px;
+    }
+    
+    .botonF p {
+        font-size: xx-large;
+    }
+
+    .f-flex {
+        display: flex;
+        grid-area: info;
+        justify-content: space-evenly;
+        margin-top: 30px;
+        align-items: center;
+    }
+    
+    .textF-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+        height: 300px;
+        width: 550px;
+        border-radius: 15px;
+    }
+    .textF-div p {
+        font-size: 40px;
+    }
+
+    .textF-div {
+        text-align: center;
+    }
+
+    .f-flex-2 {
+        display: flex;
+        grid-area: info2;
+        justify-content: space-evenly;
+        margin-top: 30px;
+        align-items: center;
+    }
+    
+    .textF-2 {
+        grid-area: text1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(164, 236, 169);
+        width: 600px;
+        height: 500px;
+        border-radius: 15px;
+    }
+    
+    .textF-div-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+        height: 300px;
+        width: 550px;
+        border-radius: 15px;
+    }
+
+    .textF-div-2 p {
+        font-size: 40px;
+    }
+    
+    .decoF-2 {
+        width: 100%;
+        padding: 5px;
+        border-radius: 25px;
+        width: 500px;
+        height: 500px;
+    }
+
+
+    .ord h4 {
+        font-size: 30px;
+    }
+
+    .ord ul img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .reg {
+        font-size: xx-large;
+    }
+
+    .article-div-futbol {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .article-flex-futbol {
+        height: 5000px;
+    }
+
+    .flex-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .article-flex-futbol div h2 {
+        font-size: 50px;
+    }
+
+    .textF-div-2 {
+        text-align: center;
+    }
+
+    .textF-div-2 {
+        text-align: center;
+    }
+
+    .product-colum {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        height: 5000px;
+    }
+
+    .card-text {
+        font-size: x-large;
+    }
+
+    .btn {
+        width: 150px;
+        height: 50px;
+        font-size: large;
+    }
+
+}
+
+
