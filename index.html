@@ -20,8 +20,8 @@
 
 
 <body>
-    <header>
-        <div class="title">
+    <header class="container-fluid">
+        <div class="header_div">
             <img src="./img/vikingo.png" alt="vikingo" class="vikingo">
             <div id="centrado">
                 <h1>Vikings</h1>
@@ -29,18 +29,32 @@
             </div>
             <img src="./img/vikingo.png" alt="vikingo" class="vikingo">
         </div>
-        <nav class="contenedor">
-            <div>
-                <a href="./index.html"><img src="./img/Logo.webp" alt="Logo de la pagina" id="logo"></a>
-            </div>
-            <div id="listaDiv">
-                <ul id="lista">
-                    <li><a href="./pages/running.html">Running</a></li>
-                    <li><a href="./pages/futbol.html">Futbol</a></li>
-                    <li><a href="./pages/sb.html">Skateboarding</a></li>
-                    <li><a href="./pages/training.html">Training</a></li>
-                    <li><a href="./pages/SobreNosotros.html">Sobre Nosotros</a></li>
-                </ul>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="./img/Logo.webp" alt="logo" id="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mr-auto d-flex">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./pages/futbol.html">Futbol</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./pages/running.html">Running</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./pages/sb.html">Skateboarding</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./pages/training.html">Training</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./pages/SobreNosotros.html">Sobre Nosotros</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -57,45 +71,45 @@
     </main>
 
     <section>
-        <article>
+        <article class="article-flex">
             <div>
                 <h2>Lanzamientos</h2>
             </div>
-            <div class="containArt">
-                <div class="containImg">
-                    <img src="./img/Lanzamiento1.jpg" alt="">
-                    <div class="precio">
-                        <h3>
-                            Adidas Forum Mid
-                        </h3>
-                        <h4>
-                            $9999
-                        </h4>
-                        <input type="button" value="Ver Producto">
+            <div class="article-div">
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="./img/Lanzamiento1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Adidas Forum Mid</h5>
+                            <p class="card-text">$9999</p>
+                            <a href="#" class="btn btn-primary">Ver Producto</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/Lanzamiento2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Adidas Questar</h5>
+                            <p class="card-text">$11999</p>
+                            <a href="#" class="btn btn-primary">Ver Producto</a>
+                        </div>
                     </div>
                 </div>
-                <div class="containImg">
-                    <img src="./img/Lanzamiento2.jpg" alt="">
-                    <div class="precio">
-                        <h3>
-                            Adidas Questar
-                        </h3>
-                        <h4>
-                            $11999
-                        </h4>
-                        <input type="button" value="Ver Producto">
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="./img/Lanzamiento3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Jordan Air 200</h5>
+                            <p class="card-text">$10999</p>
+                            <a href="#" class="btn btn-primary">Ver Producto</a>
+                        </div>
                     </div>
-                </div>
-                <div class="containImg">
-                    <img src="./img/Lanzamiento3.jpg" alt="">
-                    <div class="precio">
-                        <h3>
-                            Jordan Air 200
-                        </h3>
-                        <h4>
-                            $10999
-                        </h4>
-                        <input type="button" value="Ver Producto">
+                    <div class="card">
+                        <img src="./img/Lanzamiento4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Adidas Ozweego</h5>
+                            <p class="card-text">$15999</p>
+                            <a href="#" class="btn btn-primary">Ver Producto</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -108,45 +122,45 @@
     </div>
 
     <section>
-        <article>
+        <article class="article-flex">
             <div>
                 <h2>Destacados</h2>
             </div>
-            <div class="containArt">
-                <div class="containImg">
-                    <img src="./img/Destacado1.jpg" alt="">
-                    <div class="precio">
-                        <h3>
-                            Adidas NMD_R1
-                        </h3>
-                        <h4>
-                            $15999
-                        </h4>
-                        <input type="button" value="Ver Producto">
+            <div class="article-div">
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="./img/Destacado1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Adidas Forum Mid</h5>
+                            <p class="card-text">$9999</p>
+                            <a href="#" class="btn btn-primary">Ver Producto</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/Destacado2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Adidas Questar</h5>
+                            <p class="card-text">$11999</p>
+                            <a href="#" class="btn btn-primary">Ver Producto</a>
+                        </div>
                     </div>
                 </div>
-                <div class="containImg">
-                    <img src="./img/Destacado2.jpg" alt="">
-                    <div class="precio">
-                        <h3>
-                            Nike Air Max 97
-                        </h3>
-                        <h4>
-                            $19999
-                        </h4>
-                        <input type="button" value="Ver Producto">
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="./img/Destacado3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Jordan Air 200</h5>
+                            <p class="card-text">$10999</p>
+                            <a href="#" class="btn btn-primary">Ver Producto</a>
+                        </div>
                     </div>
-                </div>
-                <div class="containImg">
-                    <img src="./img/Destacado3.jpg" alt="">
-                    <div class="precio">
-                        <h3>
-                            Nike Crater Impact
-                        </h3>
-                        <h4>
-                            $22999
-                        </h4>
-                        <input type="button" value="Ver Producto">
+                    <div class="card">
+                        <img src="./img/Destacado4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Adidas Ozweego</h5>
+                            <p class="card-text">$15999</p>
+                            <a href="#" class="btn btn-primary">Ver Producto</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -158,57 +172,55 @@
     </div>
 
     <section>
-        <article>
+        <article class="article-flex">
             <div>
                 <h2>Recomendado</h2>
             </div>
-            <div class="containArt">
-                <div class="containImg">
-                    <img src="./img/recomendacion1.jpg" alt="">
-                    <div class="precio">
-                        <h3>
-                            Nike Air Force 1 ´07 LX
-                        </h3>
-                        <h4>
-                            $7999
-                        </h4>
-                        <input type="button" value="Ver Producto">
+            <div class="article-div">
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="./img/recomendacion1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Adidas Forum Mid</h5>
+                            <p class="card-text">$9999</p>
+                            <a href="#" class="btn btn-primary">Ver Producto</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/recomendacion2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Adidas Questar</h5>
+                            <p class="card-text">$11999</p>
+                            <a href="#" class="btn btn-primary">Ver Producto</a>
+                        </div>
                     </div>
                 </div>
-                <div class="containImg">
-                    <img src="./img/recomendacion2.jpg" alt="">
-                    <div class="precio">
-                        <h3>
-                            New Balance 373
-                        </h3>
-                        <h4>
-                            $8999
-                        </h4>
-                        <input type="button" value="Ver Producto">
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="./img/recomendacion3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Jordan Air 200</h5>
+                            <p class="card-text">$10999</p>
+                            <a href="#" class="btn btn-primary">Ver Producto</a>
+                        </div>
                     </div>
-                </div>
-                <div class="containImg">
-                    <img src="./img/recomendacion3.jpg" alt="">
-                    <div class="precio">
-                        <h3>
-                            Jordan Air NFH
-                        </h3>
-                        <h4>
-                            $12999
-                        </h4>
-                        <input type="button" value="Ver Producto">
+                    <div class="card">
+                        <img src="./img/recomendacion4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Adidas Ozweego</h5>
+                            <p class="card-text">$15999</p>
+                            <a href="#" class="btn btn-primary">Ver Producto</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </article>
     </section>
 
-
     <footer>
         <div class="containF">
-
             <div>
-                <a href="">Registrate para mas informacion</a>
+                <a href="" class="reg">Registrate para mas informacion</a>
             </div>
 
             <div class="ord">
@@ -227,7 +239,6 @@
                     <li><a href=""><img src="./img/facebook.png" alt="facebook logo" class="tif"></a></li>
                 </ul>
             </div>
-
         </div>
     </footer>
 
